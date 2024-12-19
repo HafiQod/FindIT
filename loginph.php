@@ -28,7 +28,6 @@
 <body>
     <div class="wrapper">
     <form action="loginph.php" method="POST">
-<<<<<<< HEAD
          <h2>Login Form NeedIT</h2>
          <div class="input-field">
              <input type="text" name="usernameND" required>
@@ -36,15 +35,6 @@
          </div>
          <div class="input-field">
              <input type="password" name="passwordND" required>
-=======
-         <h2>Login Form Perusahaan</h2>
-         <div class="input-field">
-             <input type="text" name="usernameph" required>
-             <label>Enter Username</label>
-         </div>
-         <div class="input-field">
-             <input type="password" name="passwordph" required>
->>>>>>> f563c76e9c4f7750ace1571b2f7d02e70bae6f7d
              <label>Enter your password</label>
          </div>
          <div class="forget">
