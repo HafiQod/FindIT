@@ -21,7 +21,7 @@ if(isset($_POST['username'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> NeedIT Page </title>
-    <link rel="stylesheet" href="needit.css">
+    <link rel="stylesheet" href="homepagePH.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -66,15 +66,12 @@ if(isset($_POST['username'])){
 
     <main class="main-content">
         <!-- Search Bar -->
-         <div>
         <div class="search-bar">
             <input type="text" placeholder="Find Your IT...">
             <select>
                 <option>Shots</option>
             </select>
             <i class='bx bx-menu menu-icon'></i>
-        </div>
-        <h2 style="color:#ffffff"> <?php echo htmlspecialchars($usernameND); ?></h2>
         </div>
 
         <!-- Banner Section -->
