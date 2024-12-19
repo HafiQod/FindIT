@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* body {
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,7 @@
   width: 100%;
   padding: 0 10px;
   background: linear-gradient(135deg, #faa6a6 0%, hsl(0, 69%, 60%) 100%);
-} */
+}
 
 .wrapper {
   width: 400px;
