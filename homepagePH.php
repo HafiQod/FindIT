@@ -73,7 +73,7 @@ if(isset($_POST['username'])){
             </select>
             <i class='bx bx-menu menu-icon'></i>
         </div>
-        <h2><?php echo $usernameND; ?></h2>
+        <h2 style="color: #ffffff"><?php echo $usernameND; ?></h2>
 
         <!-- Banner Section -->
         <div class="banner">
