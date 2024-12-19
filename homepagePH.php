@@ -4,7 +4,7 @@ include "service/databaseph.php";
 if(isset($_POST['username'])){
     $usernameND = $_POST['usernameND'];
 
-    $sql = "SELECT usernameND FROM needit WHERE id_needIT = ?";
+    $sql = "SELECT usernameND FROM needit WHERE id_NeedIT = ?";
     $result = $db->query($sql);
 
     if ($row = $result->fetch_assoc()) {

@@ -205,7 +205,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px 0;
-    flex-wrap: wrap;
 }
 
 .card {
@@ -214,7 +213,6 @@ body {
     padding: 20px;
     min-height: 200px;
     transition: transform 0.3s ease;
-    flex-grow: 1;
 }
 
 .card:hover {
