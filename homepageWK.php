@@ -11,7 +11,7 @@ if(isset($_POST['username'])){
         $usernameWK = $row["usernameWK"];
     }
 } else {
-    $usernameND = "Guest";
+    $usernameWK = "Guest";
 }
 ?>
 
