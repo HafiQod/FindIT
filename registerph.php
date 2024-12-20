@@ -3,10 +3,10 @@
     include "service/databaseph.php";
 
     if(isset($_POST['regis'])){
-        $usernameph = $_POST["usernameph"];
-        $passwordph = $_POST["passwordph"];
+        $usernameND = $_POST["usernameND"];
+        $passwordND = $_POST["passwordND"];
 
-        $sql = "INSERT INTO loginph (usernameph, passwordph) VALUES ('$usernameph', '$passwordph')";
+        $sql = "INSERT INTO needit (usernameND, passwordND) VALUES ('$usernameND', '$passwordND')";
 
         if ($db->query($sql)) {
             header("Location: loginph.php");
@@ -27,13 +27,13 @@
 <body>
     <div class="wrapper">
         <form action="registerph.php" method="POST">
-            <h2>Registrasi Perusahaan</h2>
+            <h2>Registrasi NeedIT</h2>
             <div class="input-field">
-                <input type="text" name="usernameph" required>
+                <input type="text" name="usernameND" required>
                 <label>Enter Username</label>
             </div>
             <div class="input-field">
-                <input type="password" name="passwordph" required>
+                <input type="password" name="passwordND" required>
                 <label>Enter your Password</label>
             </div>
             <div class="input-field">

@@ -2,10 +2,10 @@
     include "service/databaseph.php";
 
     if(isset($_POST['login'])){
-        $usernameph = $_POST['usernameph'];
-        $passwordph = $_POST['passwordph'];
+        $usernameND = $_POST['usernameND'];
+        $passwordND = $_POST['passwordND'];
 
-        $sql = "SELECT * FROM loginph WHERE usernameph = '$usernameph' AND passwordph = '$passwordph'";
+        $sql = "SELECT * FROM needit WHERE usernameND = '$usernameND' AND passwordND = '$passwordND'";
         $result = $db->query($sql);
         if ($result->num_rows > 0) {
             header("Location: homepagePH.php");
@@ -28,13 +28,13 @@
 <body>
     <div class="wrapper">
     <form action="loginph.php" method="POST">
-         <h2>Login Form Perusahaan</h2>
+         <h2>Login Form NeedIT</h2>
          <div class="input-field">
-             <input type="text" name="usernameph" required>
+             <input type="text" name="usernameND" required>
              <label>Enter Username</label>
          </div>
          <div class="input-field">
-             <input type="password" name="passwordph" required>
+             <input type="password" name="passwordND" required>
              <label>Enter your password</label>
          </div>
          <div class="forget">

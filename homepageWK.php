@@ -1,3 +1,20 @@
+<?php
+include "service/databasewk.php";
+
+if(isset($_POST['username'])){
+    $usernameWK = $_POST['usernameWK'];
+
+    $sql = "SELECT usernameWK FROM workit WHERE id_WorkIT = ?";
+    $result = $db->query($sql);
+
+    if ($row = $result->fetch_assoc()) {
+        $usernameWK = $row["usernameWK"];
+    }
+} else {
+    $usernameWK = "Guest";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -3,10 +3,10 @@
     include "service/databasewk.php";
 
     if(isset($_POST['regis'])){
-        $usernamewk = $_POST["usernamewk"];
-        $passwordwk = $_POST["passwordwk"];
+        $usernameWK = $_POST["usernameWK"];
+        $passwordWK = $_POST["passwordWK"];
 
-        $sql = "INSERT INTO loginwk (usernamewk, passwordwk) VALUES ('$usernamewk', '$passwordwk')";
+        $sql = "INSERT INTO workit (usernameWK, passwordWK) VALUES ('$usernameWK', '$passwordWK')";
 
         if ($db->query($sql)) {
             header("Location: loginwk.php");
@@ -21,19 +21,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FindIT</title>
+    <title>WorkIT</title>
     <link rel="stylesheet" href="registrasi.css">
 </head>
 <body>
     <div class="wrapper">
         <form action="registerwk.php" method="POST">
-            <h2>Registrasi Worker</h2>
+            <h2>Registrasi WorkIT</h2>
             <div class="input-field">
-                <input type="text" name="usernamewk" required>
+                <input type="text" name="usernameWK" required>
                 <label>Enter Username</label>
             </div>
             <div class="input-field">
-                <input type="password" name="passwordwk" required>
+                <input type="password" name="passwordWK" required>
                 <label>Enter your Password</label>
             </div>
             <div class="input-field">

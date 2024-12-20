@@ -2,10 +2,10 @@
     include "service/databasewk.php";
 
     if(isset($_POST['login'])){
-        $usernamewk = $_POST['usernamewk'];
-        $passwordwk = $_POST['passwordwk'];
+        $usernameWK = $_POST['usernameWK'];
+        $passwordWK = $_POST['passwordWK'];
 
-        $sql = "SELECT * FROM loginwk WHERE usernamewk = '$usernamewk' AND passwordwk = '$passwordwk'";
+        $sql = "SELECT * FROM workit WHERE usernameWK = '$usernameWK' AND passwordWK = '$passwordWK'";
         $result = $db->query($sql);
         if ($result->num_rows > 0) {
             header("Location: homepageWK.php");
@@ -28,13 +28,13 @@
 <body>
     <div class="wrapper">
     <form action="loginwk.php" method="POST">
-         <h2>Login Form Worker</h2>
+         <h2>Login Form WorkIT</h2>
          <div class="input-field">
-             <input type="text" name="usernamewk" required>
+             <input type="text" name="usernameWK" required>
              <label>Enter Username</label>
          </div>
          <div class="input-field">
-             <input type="password" name="passwordwk" required>
+             <input type="password" name="passwordWK" required>
              <label>Enter your password</label>
          </div>
          <div class="forget">

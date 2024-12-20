@@ -1,11 +1,11 @@
 <?php
 
 $hostname = "localhost";
-$usernamewk = "root";
-$passwordwk = "";
-$database_name = "loginwk";
+$usernameWK = "root";
+$passwordWK = "";
+$database_name = "findit";
 
-$db = mysqli_connect($hostname, $usernamewk, $passwordwk, $database_name);
+$db = mysqli_connect($hostname, $usernameWK, $passwordWK, $database_name);
 
 if($db->connect_error) {
     echo "Connection failed: ";
