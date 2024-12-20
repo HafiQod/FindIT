@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (profileIcon) {
       profileIcon.addEventListener('click', () => {
           // Redirect to profile page
-          window.location.href = 'profile_needit.html';
+          window.location.href = 'profilePH.php';
       });
   }
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (homeIcon) {
       homeIcon.addEventListener('click', () => {
           // Redirect to home page
-          window.location.href = 'homepage_needit.html';
+          window.location.href = 'homepagePH.php';
       });
   }
 });
