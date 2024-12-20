@@ -40,6 +40,7 @@
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left" style="margin-top: 2rem;">
+                    <h1 class="title">Choose this if it suits your preference</h1>
                     <button class="ghost" id="login">Need IT
                         <!-- <i class="fa-solid fa-arrow-rigth login"></i> -->
                     </button>
