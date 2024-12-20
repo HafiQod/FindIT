@@ -25,6 +25,12 @@
     <link rel="stylesheet" href="registrasi.css">
 </head>
 <body>
+
+<video autoplay muted loop id="background-video">
+        <source src="643081aab39dc7304f659d03f8d42d71.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
     <div class="wrapper">
         <form action="registerwk.php" method="POST">
             <h2>Registrasi WorkIT</h2>
