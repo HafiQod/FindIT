@@ -121,11 +121,6 @@ button:hover {
   align-items: center;
   justify-content: space-between;
   margin: 25px 0 35px 0;
-  color: #ffffff;
-}
-
-#remember {
-  accent-color: #ffdde1;
 }
 
 .forget label {
