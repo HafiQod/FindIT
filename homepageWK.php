@@ -69,7 +69,7 @@ if(isset($_POST['username'])){
         <!-- Banner Section -->
         <div class="banner">
             <div class="banner-content">
-                <h1>Cara Membuat<br>Iklan Google Ads<br>Untuk Promosi</h1>
+                <h1>Cara Membuat<br>Iklan Google Ads<br>Untuk Promosii</h1>
                 <div class="banner-dots">
                     <span class="dot active"></span>
                     <span class="dot"></span>
