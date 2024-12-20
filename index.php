@@ -12,8 +12,9 @@
 
         <div class="form-container register-container">
             <form action="loginwk.php">
+                <div>
                 <h1>Work IT</h1>
-                
+                </div>
                 <div class="button-container">
                     <button>Continue</button>
                 </div>
@@ -22,9 +23,15 @@
 
         <div class="form-container login-container">
             <form action="loginph.php">
-                <h1 style="margin-bottom: 5">Need IT</h1>
+                <div style="margin-bottom: 0rem; margin-top: 0rem;">
+                <h1>Need IT</h1>
+                </div>
+
+                <div style="margin-bottom: 13rem;">
+                    <h4 style="font-weight: 360;">Platform bagi perusahaan untuk menemukan profesional IT dengan cepat dan tepat melalui fitur pencarian berbasis keterampilan, pengalaman, dan lokasi.</h4>
+                </div>
                 
-                <div class="button-container">
+                <div class="button-container" style="position: fixed; margin-top: 4.3rem;">
                     <button>continue</button>
                 </div>
             </form>
@@ -38,7 +45,7 @@
                     </button>
                 </div>
                 <div class="overlay-panel overlay-right" style="margin-top: 2rem;">
-                    <h1 class="title">Start your <br> journey here,</h1>
+                    <h1 class="title">Choose this if it suits your preference</h1>
                     <button class="ghost" id="register"> Work IT
                         <!-- <i class="fa-solid fa-arrow-left register"></i> -->
                     </button>
