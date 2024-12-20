@@ -12,10 +12,15 @@
 
         <div class="form-container register-container">
             <form action="loginwk.php">
-            <div>
+            <div style="position: fixed; margin-bottom: 23.4rem;">
                 <h1>Work IT</h1>
                 </div>
-                <div class="button-container">
+
+                <div style="margin-bottom: 8.9rem;">
+                <h4 style="font-weight: 360;">Ruang bagi profesional IT untuk memamerkan keahlian mereka, mengunggah profil, dan menemukan peluang kerja yang sesuai dengan spesialisasi mereka.</h4>
+                </div>
+
+                <div class="button-container" style="position: fixed; margin-top: 4.3rem;">
                     <button>Continue</button>
                 </div>
             </form>
