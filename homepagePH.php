@@ -92,13 +92,13 @@ if(isset($_POST['usernameND'])){
         <!-- Cards Container -->
         <div class="cards-container">
             <div class="card">
-                <img src="Card Portofolio.png" alt="card">
+                <img src="Card Portofolio.pn" alt="card">
             </div>
             <div class="card">
-                <img src="Card Portofolio.png" alt="card">
+                <img src="Card Portofolio.pn" alt="card">
             </div>
             <div class="card">
-                <img src="Card Portofolio.png" alt="card">
+                <img src="Card Portofolio.pn" alt="card">
             </div>
         </div>
     </main>
