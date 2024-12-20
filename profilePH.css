@@ -93,9 +93,20 @@ body {
     transition: .5s;
 }
 
-.list .list-item.active a,
+.list .list-item.active {
+    background: #dadada;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    white-space: nowrap;        
+    transition: .9s;
+}
+
 .list .list-item a:hover {
-    background: rgba(248, 248, 248, 0.778);
+    background: rgba(248, 248, 248, 0.295);
 }
 
 .list .list-item a i {
