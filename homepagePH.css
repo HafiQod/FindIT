@@ -225,10 +225,8 @@ body {
 }
 
 .card img {
-    width: 80%;
+    width: 100%;
     position:relative;
-    height: auto;
-    margin: 0 auto;
     border-radius: 10px;
 }
 
