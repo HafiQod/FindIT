@@ -12,14 +12,13 @@
 
         <div class="form-container register-container">
             <form action="loginwk.php">
-                <div>
+            <div style="margin-bottom: 0rem; margin-top: 0rem;">
                 <h1>Work IT</h1>
                 </div>
-                <div class="button-container">
-                    <button>Continue</button>
+
+                <div style="margin-bottom: 13rem;">
+                    <h4 style="font-weight: 360;">Platform bagi perusahaan untuk menemukan profesional IT dengan cepat dan tepat melalui fitur pencarian berbasis keterampilan, pengalaman, dan lokasi.</h4>
                 </div>
-            </form>
-        </div>
 
         <div class="form-container login-container">
             <form action="loginph.php">
