@@ -71,7 +71,6 @@ if(isset($_POST['username'])){
             <select>
                 <option>Shots</option>
             </select>
-            <i class='bx bx-menu menu-icon'></i>
         </div>
 
         <!-- Banner Section -->
