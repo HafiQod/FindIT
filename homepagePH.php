@@ -1,7 +1,7 @@
 <?php
 include "service/databaseph.php";
 
-if(isset($_POST['username'])){
+if(isset($_POST['usernameND'])){
     $usernameND = $_POST['usernameND'];
 
     $sql = "SELECT usernameND FROM needit WHERE id_NeedIT = ?";
