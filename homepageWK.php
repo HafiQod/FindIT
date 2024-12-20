@@ -64,12 +64,20 @@ if(isset($_POST['username'])){
             </ul>
     </nav>
 
-    
+    <main class="main-content">
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Find Your IT...">
+            <select>
+                <option>Shots</option>
+            </select>
+            <i class='bx bx-menu menu-icon'></i>
+        </div>
 
         <!-- Banner Section -->
         <div class="banner">
             <div class="banner-content">
-                <h1>Cara Membuat<br>Iklan Google Ads<br>Untuk Promosii</h1>
+                <h1>Cara Membuat<br>Iklan Google Ads<br>Untuk Promosi</h1>
                 <div class="banner-dots">
                     <span class="dot active"></span>
                     <span class="dot"></span>
