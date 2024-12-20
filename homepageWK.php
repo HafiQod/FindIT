@@ -64,15 +64,7 @@ if(isset($_POST['username'])){
             </ul>
     </nav>
 
-    <main class="main-content">
-        <!-- Search Bar -->
-        <div class="search-bar">
-            <input type="text" placeholder="Find Your IT...">
-            <select>
-                <option>Shots</option>
-            </select>
-            <i class='bx bx-menu menu-icon'></i>
-        </div>
+    
 
         <!-- Banner Section -->
         <div class="banner">
