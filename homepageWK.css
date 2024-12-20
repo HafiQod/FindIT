@@ -9,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: #38b134;
+    background: #2a8b91;
     background-size: cover;
     background-position: center;
 }
@@ -161,18 +161,25 @@ body {
 
 /* Banner Styles */
 .banner {
-    background: linear-gradient(135deg, #38b134 0%, #2d8a29 100%);
+    background: linear-gradient(135deg, #226ee1 0%, #2d8a29 100%);
     border-radius: 15px;
     padding: 40px;
     margin-bottom: 30px;
-    position: relative;
     overflow: hidden;
     height: 300px;
 }
 
 .banner-content {
+    width: 100%;
+    height: 50%;
     position: relative;
     z-index: 1;
+}
+
+.banner-content img{
+    width: 50%;
+    position: block;
+    border-radius: 20px;
 }
 
 .banner h1 {
@@ -205,6 +212,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -213,6 +221,13 @@ body {
     padding: 20px;
     min-height: 200px;
     transition: transform 0.3s ease;
+    flex-grow: 1;
+}
+
+.card img {
+    width: 50%;
+    position:relative;
+    border-radius: 10px;
 }
 
 .card:hover {
@@ -226,7 +241,8 @@ body {
     }
     
     .banner {
-        height: auto;
+        width: 100%;
+        height: 100%;
         padding: 30px;
     }
     
