@@ -55,10 +55,10 @@ if(isset($_POST['username'])){
                         <span class="link-name" style="--i:4;">About</span>
                     </a>
                 </li>
-                <li class="list-item">
+                <li class="list-item" id="feedback-menu">
                     <a href="#">
                         <i class='bx bx-chat'></i>
-                        <span class="link-name" style="--i:5;">Feedback</span>
+                        <span class="link-name" style="--i:5;">Isi Portofolio</span>
                     </a>
                 </li>
             </ul>
@@ -86,6 +86,28 @@ if(isset($_POST['username'])){
                     <span class="dot"></span>
                 </div>
             </div>
+        </div>
+
+        <!-- Upload Form Section -->
+        <div class="upload-form-section" id="upload-form-section" style="display: none;">
+            <h2>Upload Form</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+                
+                <label for="skills">Keahlian:</label>
+                <textarea id="skills" name="skills" rows="5" required></textarea>
+                
+                <label for="photo">Foto:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+                
+                <div class="clearfix">
+                    <input type="submit" value="Upload">
+                </div>
+            </form>
         </div>
 
         <!-- Cards Container -->

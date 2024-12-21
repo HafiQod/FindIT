@@ -234,6 +234,60 @@ body {
     transform: translateY(-5px);
 }
 
+/* Upload Form Section Styles */
+.upload-form-section {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.upload-form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-form-section form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.upload-form-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.upload-form-section input[type="text"],
+.upload-form-section textarea,
+.upload-form-section input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.upload-form-section input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.upload-form-section input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.upload-form-section .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .cards-container {
