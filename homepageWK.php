@@ -70,6 +70,8 @@ if(isset($_POST['username'])){
             <input type="text" placeholder="Find Your IT...">
             <select>
                 <option>Shots</option>
+                <option>Designers</option>
+                <option>UI/UX</option>
             </select>
         </div>
 
