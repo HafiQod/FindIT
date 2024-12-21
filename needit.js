@@ -41,4 +41,15 @@ document.addEventListener("DOMContentLoaded", () => {
           item.classList.add("active");
       });
   });
+
+  // Add click event listener to cards
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+      card.addEventListener('click', () => {
+          const target = card.getAttribute('data-target');
+          if (target) {
+              window.location.href = target;
+          }
+      });
+  });
 });

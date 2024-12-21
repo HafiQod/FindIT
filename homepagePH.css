@@ -222,6 +222,7 @@ body {
     min-height: 200px;
     transition: transform 0.3s ease;
     flex-grow: 1;
+    cursor: pointer;
 }
 
 .card img {
