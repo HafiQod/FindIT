@@ -25,7 +25,7 @@ if(isset($_POST['username'])){
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <nav class="sidebar">
+    <nav class="sidebar" id="sidebar">
         <div class="logo-menu">
             <h2 class="logo">FindIT</h2>
             <i class='bx bx-menu toggle-btn'></i>
@@ -58,15 +58,15 @@ if(isset($_POST['username'])){
                 <li class="list-item" id="feedback-menu">
                     <a href="#">
                         <i class='bx bx-chat'></i>
-                        <span class="link-name" style="--i:5;">Isi Portofolio</span>
+                        <span class="link-name" style="--i:5;">Feedback</span>
                     </a>
                 </li>
             </ul>
     </nav>
 
-    <main class="main-content">
+    <main class="main-content" id="main-content">
         <!-- Search Bar -->
-        <div class="search-bar">
+        <div class="search-bar" id="search-bar">
             <input type="text" placeholder="Find Your IT...">
             <select>
                 <option>Shots</option>
@@ -76,7 +76,7 @@ if(isset($_POST['username'])){
         </div>
 
         <!-- Banner Section -->
-        <div class="banner">
+        <div class="banner" id="banner">
             <div class="banner-content">
                 <h1>Cara Membuat<br>Iklan Google Ads<br>Untuk Promosi</h1>
                 <div class="banner-dots">
@@ -111,7 +111,7 @@ if(isset($_POST['username'])){
         </div>
 
         <!-- Cards Container -->
-        <div class="cards-container">
+        <div class="cards-container" id="cards-container">
             <div class="card">
                 <!-- Card content will go here -->
             </div>
